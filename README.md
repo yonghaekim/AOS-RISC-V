@@ -1,3 +1,3 @@
-# AOS-RISC-V: Towards Always-On Heap Memory Safety
+# AOS-RISC-V
 
 TBD. Stay tuned. :)
