@@ -1,3 +1,3 @@
 # AOS-RISC-V
 
-TBD. Stay tuned. :)
+Will appear soon. Stay tuned. :)
