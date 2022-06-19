@@ -1,0 +1,23 @@
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/clocking/TileClockGater.scala:52:11: method toVariableWidthSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= TLFragmenter(bus.beatBytes, bus.blockBytes) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tlbus.toVariableWidthSlave(Some("clock-gater")) { gater.tlNode := TLBuffer() }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/clocking/TileResetSetter.scala:69:11: method toVariableWidthSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= TLFragmenter(bus.beatBytes, bus.blockBytes) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tlbus.toVariableWidthSlave(Some("tile-reset-setter")) { setter.tlNode := TLBuffer() }[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/example/GCD.scala:168:14: method toSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        pbus.toSlave(Some(portName)) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/example/GCD.scala:178:14: method toVariableWidthSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= TLFragmenter(bus.beatBytes, bus.blockBytes) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m        pbus.toVariableWidthSlave(Some(portName)) { gcd.node }[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/example/TutorialTile.scala:133:53: method hartId in trait HasNonDiplomaticTileParameters is deprecated (since rocket-chip 1.3): use hartIdSinkNodeOpt.map(_.bundle) or staticIdForMetadataUseOnly[0m
+[0m[[0m[33mwarn[0m] [0m[0m    Resource(cpuDevice, "reg").bind(ResourceAddress(hartId))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/example/dsptools/GenericFIR.scala:206:12: method toVariableWidthSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= TLFragmenter(bus.beatBytes, bus.blockBytes) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m      pbus.toVariableWidthSlave(Some("streamingFIR")) { streamingFIR.mem.get := TLFIFOFixer() }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/fast_data/yonghae/riscv/firesim/target-design/chipyard/generators/chipyard/src/main/scala/example/dsptools/StreamingPassthrough.scala:135:12: method toVariableWidthSlave in trait CanAttachTLSlaves is deprecated (since rocket-chip 1.3): Replace with e.g. bus.coupleTo(s"slave_named_${name}"){ slave.controlXing(NoCrossing) :*= TLFragmenter(bus.beatBytes, bus.blockBytes) :*= _ }[0m
+[0m[[0m[33mwarn[0m] [0m[0m      pbus.toVariableWidthSlave(Some("streamingPassthrough")) { streamingPassthroughChain.mem.get := TLFIFOFixer() }[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 31 feature warnings; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
