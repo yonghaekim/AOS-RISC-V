@@ -7,7 +7,7 @@ Please refer to the [FireSim documentation](https://docs.fires.im/en/latest/Init
 ## Setting up the FireSim Repo
 
 When you set up a manager instance during
-the [initial setup process](https://github.com/sslab-gatech/SNAP#initial-setupinstallation-for-firesim),
+the initial setup process,
 check out a specific tag, `1.13.6`.
 
 ```
@@ -24,7 +24,7 @@ rm -rf ~/firesim/generator
 cp -rf ./AOS-RISC-V/generator ~/firesim/
 ```
 
-## Building a New HW Design for SNAP
+## Building a New HW Design for AOS-RISC-V
 
 1. In `~/firesim/deploy/config_build.ini`,
 - Under `[afibuild]`, add a bucket name:
@@ -59,7 +59,7 @@ firesim buildafi
 After completed, you will get a new agfi number for your new HW design. \
 Refer to the [documentation](https://docs.fires.im/en/latest/Building-a-FireSim-AFI.html) for more details.
 
-## Running FireSim Simulations with SNAP
+## Running FireSim Simulations with AOS-RISC-V
 
 1. In `~/firesim/deploy/config_runtime.ini`,
 - Change the default HW config.
